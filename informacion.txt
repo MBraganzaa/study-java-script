@@ -1,0 +1,5 @@
+{
+    "nombre" : "manu",
+    "edad" : 21,
+    "pito" : "14cm"
+}
