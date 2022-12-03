@@ -1,0 +1,13 @@
+body{
+    background-color: #48e;
+    font-family: sans-serif;
+}
+#btn-info {
+    font-size: 20px;
+    padding: 15px, 10px;
+    margin: 30px;
+}
+
+.Aprob, .desAprob{
+    color: #934;
+}

@@ -58,10 +58,19 @@
 // })
 //     .then(res=>console.log(res))
 
-const validar = async ()=>{
-    let peticion = await fetch("informacion.txt");
-    let resultado = await peticion.json();
-    console.log(resultado);
+const getName = async ()=>{
+    let resultado = await axios ("informacion.txt");
+    document.querySelector(".get-name").innerHTML = resultado.data.nombre;
 }
+const getAge = async ()=>{
+    let resultado = await axios ("informacion.txt");
+    document.querySelector(".get-age").innerHTML = resultado.data.edad;
+}
+const getDik = async ()=>{
+    let resultado = await axios ("informacion.txt");
+    document.querySelector(".get-dik").innerHTML = resultado.data.pito;
+}
+document.getElementById('btn-name').addEventListener("click",getName)
+document.getElementById('btn-age').addEventListener("click",getAge)
+document.getElementById('btn-dik').addEventListener("click",getDik)
 
-validar();
