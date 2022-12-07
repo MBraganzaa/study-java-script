@@ -1,0 +1,17 @@
+body{
+    background-color: #48e;
+    font-family: sans-serif;
+}
+
+.reloj {
+    margin: 20px;
+    background-color: #639;
+    border: solid 4px #626 ;
+    display: inline-flex;
+}
+
+.reloj > div {
+    font-size: 28px;
+    padding: 5px 9px;
+    color: #fff;
+}
