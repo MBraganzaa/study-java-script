@@ -1,0 +1,17 @@
+body{
+    background-color: #48e;
+    font-family: sans-serif;
+}
+.circulo{
+    background-color: rgb(225, 84, 8);
+    border-radius: 50%;
+    padding: 30px;
+    display: inline-block;
+}
+.rectangulo{
+    background-color: rgb(85, 0, 90);
+    border:solid 2px rgb(208, 128, 214);
+    padding: 100px 50px;
+    margin: 25px;
+    width: 50% ;
+}

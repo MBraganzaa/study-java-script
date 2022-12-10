@@ -1,0 +1,39 @@
+body{
+    background-color: #48e;
+    font-family: sans-serif;
+}
+
+.manteles{
+    background-color: gray;
+    margin: 10px;
+    border: solid 1px black ;
+    border-radius: 5px;
+    user-select: none;
+}
+.manteles div{
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin: 6px;
+    user-select: all;
+    
+}
+.manteles div:active{
+    opacity: 0.55;
+}
+.mantel1{
+    background: url("textura1.jpg");
+}
+.mantel2{
+    background: url("textura2.jpg");
+}
+.mantel3{
+    background: url("textura3.jpg");
+}
+
+.mesa{
+    background-color: coral;
+    margin: auto;
+    width: 400px;
+    min-height: 200px;
+}
