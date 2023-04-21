@@ -1,4 +1,51 @@
 body{
     background-color: #48e;
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.zonaDeArrastre , .barra-de-carga{
+    background: #ccd;
+    padding: 60px 40px;
+    color: #eee;
+    border: 4px dashed #eaa;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+.barra-de-carga{
+    position: absolute;
+    width: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    z-index: 0;
+    border: none;
+    background: #eaa;
+    transition: width 0.2s, background 1s;
+    
+}
+.play{
+    background-color: #eee;
+    display:inline-block;
+    border:4px #549 solid ;
+    border-radius: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.resultado{
+    margin:auto;
+    margin-top: 20px;
+    width: 600px;
+    height: 700px;
 }
